@@ -35,7 +35,7 @@
     1. ELements that are used to create a website are called HTML tags.
     2. Tags can contain content or other HTML tags.
     3. Define elements lile text, images, links.
-    4. Structure of an HTML tag - <openingTag options>Content comes here<closingTag/>
+    4. Structure of an HTML tag - <openingTag attributes>Content comes here<closingTag/>
 
 2.2 Emmet plugin (!)
 
