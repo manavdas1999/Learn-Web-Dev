@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Learning Lists, Tables, Forms and much more.</h1>
+        <nav>
+            <a href="#lists">Lists</a>
+            <a href="#tables">Tables</a>
+            <a href="#forms">Forms</a>
+            <a href="#more">More</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="lists">
+            <ol type="i">
+                <li>Wake up</li>
+                <li>Try to get out of bed</li>
+                <li>Fail to get out of bed</li>
+                <li>Tired of trying to get out of bed</li>
+                <li>Sleep again</li>
+                <ol>
+                    <li>Dream of getting out of bed</li>
+                    <li>Try really hard to get out of bed</li>
+                    <li>Fail again</li>
+                    <li>Tired of trying, sleep deeper in your sleep.</li>
+                </ol>
+
+            </ol>
+
+            <ul>
+                <li>Burger</li>
+                <li>Pizza</li>
+                <li>Samosa</li>
+                <ul>
+                    <li>Ladoo</li>
+                    <li>Jalebi</li>
+                    <li>Gulab jamun</li>
+                </ul>
+            </ul>
+
+        </section>
+
+        <hr>
+
+        <section id="tables">
+            <table border="10">
+                <caption>Student Information</caption>
+                <tr>
+                    <th colspan="2">Information of some students</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+
+                <tr>
+                    <td>Gyaan</td>
+                    <td>21</td>
+                    <td>gyaan21@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Sofia</td>
+                    <td>28</td>
+                    <td>sofia28@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>17</td>
+                    <td>alex17@gmail.com</td>
+                </tr>
+                <tr>
+                    <td colspan="3">New Student</td>
+                </tr>
+            </table>
+
+        </section>
+        <hr>
+
+        <section id="forms">
+            <form action="">
+                <label for="username">Enter username:</label>
+                <input type="text" name="username" id="username " value="htmllearner"
+                    placeholder="enter your username here.." required> <br>
+                Password: <input type="password" name="password" id="password"> <br>
+                Date: <input type="date" name="" id=""> <br>
+                File: <input type="file"> <br>
+                Color: <input type="color"> <br>
+                Range: <input type="range" name="" id=""> <br>
+                <div>
+                    Radio-Group:
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+                <div>
+                    Checkbox-Group:
+                    <label for="apple">Apple</label>
+                    <input type="checkbox" name="fruit" id="apple" value="Apple">
+                    <label for="Banana">Banana</label>
+                    <input type="checkbox" name="fruit" id="banana" value="Banana">
+                </div>
+                <div>
+                    Select-Group:
+                    <label for="fruits">Select Fruit</label>
+                    <select name="fruits" id="fruits">
+                        <option value="apple">Apple</option>
+                        <option value="banana">Banana</option>
+                        <option value="grapes">Grapes</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="about">About Yourself:</label>
+                    <textarea name="about-text" id="abput" cols="30" rows="10">     Some default text</textarea>
+                </div>
+
+                <input type="submit" value="Submit"> <input type="reset">
+                
+            </form>
+
+        </section>
+
+        <hr>
+
+        <section id="iframe">
+            <iframe width="682" height="480" src="https://www.youtube.com/embed/mJW57E7GpSo" frameborder="10" ></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <br><br><br><br>
+    </footer>
+</body>
+
+</html>
