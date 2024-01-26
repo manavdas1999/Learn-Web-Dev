@@ -29,5 +29,5 @@
     1.6 Create a Github page (settings > pages)
 # Task: Creating a Github page of the same repo
 
-# Optional - Download and use Github local
+# Optional - Download and use Github local 
 
